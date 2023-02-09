@@ -82,21 +82,21 @@ def proceed_to_checkout():
     continue_to_shipping_btn = bot.find_element(By.ID, 'continue_button')
 
     email_input.send_keys(variables['email'])
-    sleep(.25)
+    sleep(.05)
     first_name_input.send_keys(variables['first_name'])
-    sleep(.25)
+    sleep(.05)
     last_name_input.send_keys(variables['last_name'])
-    sleep(.25)
+    sleep(.05)
     address1_input.send_keys(variables['address1'])
-    sleep(.25)
+    sleep(.05)
     address2_input.send_keys(variables['address2'])
-    sleep(.25)
+    sleep(.05)
     city_input.send_keys(variables['city'])
-    sleep(.25)
+    sleep(.05)
     zipcode_input.send_keys(variables['zipcode'])
-    sleep(.25)
+    sleep(.05)
     phone_input.send_keys(variables['phone'])
-    sleep(.25)
+    sleep(.05)
     continue_to_shipping_btn.click()
 
 
@@ -130,7 +130,7 @@ def proceed_to_payment():
     name_on_card_input = WebDriverWait(bot, 10).until(
         EC.presence_of_element_located((By.ID, 'name'))
     )
-    name_on_card_input.send_keys(variables['first_name'] + ' V ' + variables['last_name'])
+    name_on_card_input.send_keys(variables['first_name'] + ' MIDDLE NAME IF NEEDED' + variables['last_name'])
 
     bot.switch_to.default_content()
 
