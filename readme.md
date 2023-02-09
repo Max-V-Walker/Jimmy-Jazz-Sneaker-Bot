@@ -25,5 +25,9 @@ The Sneaker Bot strictly works on Jimmy Jazz's website, below.
 * Good luck!
 
 ## Screenshots
+![Screen Shot 2023-02-08 at 7 21 09 PM](https://user-images.githubusercontent.com/80484823/217682772-bce923fb-22bd-4058-b342-23a946d6d804.png)
+![Screen Shot 2023-02-08 at 7 21 15 PM](https://user-images.githubusercontent.com/80484823/217682781-caed49d5-cb7f-46d4-b9e0-ead0724da5c6.png)
+![Screen Shot 2023-02-08 at 7 17 45 PM](https://user-images.githubusercontent.com/80484823/217682793-1a06c3ea-e7d1-4dcd-b6da-6dd1c21ce940.png)
+![Screen Shot 2023-02-08 at 7 21 43 PM](https://user-images.githubusercontent.com/80484823/217682830-30397b5f-bb1d-4ec0-b05b-b271b1ff91bf.png)
 
 ## Technologies Used
